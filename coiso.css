@@ -1,14 +1,29 @@
+body {
+    background-color: aquamarine; 
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
 h1 {
-    color: brown
+    color: brown;
+    text-align: center;
+    text-transform: uppercase;
 }
-.teste {
-    background-color:aquamarine;
-    border: 5px black insert;
+.conteudo-principal {
+    background-color: white;
+    margin: 20px auto; 
+    border: 2px solid gray;
+    border-radius: 15px; 
 }
-.cabeçalho {
-    color:blueviolet;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    top: 0;
+.botao-email {
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+img {
+    border: 5px solid aquamarine;
+    display: block;
+    margin: 0 auto;
 }
